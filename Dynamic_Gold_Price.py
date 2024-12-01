@@ -44,13 +44,13 @@ if __name__ == "__main__":
 
     # Carat Purity Data
     carat_data = [
-        {"carat": 9, "purity_percentage": 37.5},
-        {"carat": 10, "purity_percentage": 41.7},
-        {"carat": 12, "purity_percentage": 50.0},
-        {"carat": 14, "purity_percentage": 58.3},
-        {"carat": 18, "purity_percentage": 75.0},
-        {"carat": 22, "purity_percentage": 91.7},
-        {"carat": 24, "purity_percentage": 99.9},
+        {"carat": 9, "purity_percentage": 37.5, "Hallmark": 37.5*10},
+        {"carat": 10, "purity_percentage": 41.7, "Hallmark": 41.7*10},
+        {"carat": 12, "purity_percentage": 50.0, "Hallmark": 50.0*10},
+        {"carat": 14, "purity_percentage": 58.3, "Hallmark": 58.3*10},
+        {"carat": 18, "purity_percentage": 75.0, "Hallmark": 75.0*10},
+        {"carat": 22, "purity_percentage": 91.7, "Hallmark": 91.7*10},
+        {"carat": 24, "purity_percentage": 99.9, "Hallmark": 99.9*10},
     ]
 
     # Calculate the price per gram of 24K gold
